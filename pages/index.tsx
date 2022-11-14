@@ -4,8 +4,8 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
-      <p className="text-3xl font-bold underline">
+    <div className="bg-red-100">
+      <p className="text-blue-100">
         My first Next-App with TypeScript and Tailwind Css
       </p>
       <p>컴파일과 번들링이 자동으로 된다. (webpack과 babel)</p>
